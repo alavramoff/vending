@@ -1,0 +1,16 @@
+---
+spring:
+  security:
+    user:
+      name: password
+      password: password
+      roles: ADMIN
+---
+data:
+  exception:
+    message1: "Oops, our bad, we will fill in all missing products soon. Please call, to let us know."
+    message2: "Please, insert more coins"
+    message3: "Please, insert valid Coin"
+    message4: "Please, don't exceed the limit!"
+    details:
+      message3Details: "Allowed coins are: 5, 10, 20, 50 st or from 1 or 2 lv."
