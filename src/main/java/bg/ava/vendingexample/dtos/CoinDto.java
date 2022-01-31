@@ -13,5 +13,6 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CoinDto {
+
     private BigDecimal amount;
 }

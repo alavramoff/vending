@@ -13,7 +13,10 @@ import java.net.Inet4Address;
 @Getter
 @Setter
 public class ErrorMessageDto {
+
     private String message;
+
     private Integer statusCode;
+
     private String details;
 }

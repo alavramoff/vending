@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class VendingMachine {
+
     private BigDecimal currentAmount;
     private BigDecimal totalTurnover;
 }

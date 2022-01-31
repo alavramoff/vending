@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 
 @Getter
 public enum Coin {
+
     ST_5(new BigDecimal("0.05")),
     ST_10(new BigDecimal("0.1")),
     ST_20(new BigDecimal("0.2")),

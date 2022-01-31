@@ -9,6 +9,7 @@ import java.util.List;
 
 @Component
 public class ProductMapper {
+
     public ProductDto returnMappedDto(Product product) {
         return new ProductDto(product);
     }
@@ -29,7 +30,4 @@ public class ProductMapper {
         product.setPrice(productDto.getPrice());
         return product;
     }
-
-
-
 }

@@ -14,12 +14,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
+
     @Value(value = "${data.exception.message1}")
     private String message1;
+
     @Value(value = "${data.exception.message2}")
     private String message2;
+
     @Value(value = "${data.exception.message3}")
     private String message3;
+
     @Value(value = "${data.exception.message4}")
     private String message4;
 

@@ -15,12 +15,18 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class ProductDto {
+
     private String name;
+
     private String description;
+
     @QuantityValidation
     private Integer quantity;
+
     private ProductLine productLine;
+
     private ProductType productType;
+
     @PriceValidation
     private BigDecimal price;
 

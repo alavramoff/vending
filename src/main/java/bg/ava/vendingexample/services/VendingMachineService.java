@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public interface VendingMachineService {
+
     List<Product> showAllAvailableProducts();
     Product orderProduct(Integer prodNumber);
     BigDecimal insertCoin(BigDecimal coin);

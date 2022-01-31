@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Profile;
 import java.util.List;
 
 public interface VendingRepo {
+
     List<Product> findAll();
     Product findById(Integer id);
     Product save(Product product);

@@ -15,7 +15,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @Getter
 @Setter
 public class CoinNotSupportedException extends RuntimeException {
+
     private static final long serialVersionUID = 1l;
+
     @Value(value = "${data.exception.details.message3Details}")
     private String message;
 }

@@ -13,5 +13,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @Getter
 @Setter
 public class ProductNotAvailableException extends RuntimeException {
+
     private String message;
 }

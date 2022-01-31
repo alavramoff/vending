@@ -11,7 +11,6 @@ public class RoleHierarchyConfiguration {
     @Bean
     public RoleHierarchy roleHierarchy() {
         RoleHierarchyImpl roleHierarchy = new RoleHierarchyImpl();
-
         return roleHierarchy;
     }
 

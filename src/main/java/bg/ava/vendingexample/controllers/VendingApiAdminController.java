@@ -17,6 +17,7 @@ import java.util.List;
 @RequestMapping("/api/admin")
 @AllArgsConstructor
 public class VendingApiAdminController {
+
     private VendingMachineService service;
     private ProductMapper mapper;
 
