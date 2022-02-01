@@ -7,7 +7,7 @@ import bg.ava.vendingexample.exceptions.ProductNotAvailableException;
 import bg.ava.vendingexample.exceptions.QuantityLimitException;
 import bg.ava.vendingexample.models.Product;
 import bg.ava.vendingexample.models.VendingMachine;
-import bg.ava.vendingexample.repos.VendingRepoImpl;
+import bg.ava.vendingexample.repos.VendingRepo;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 @Service
 public class VendingMachineServiceImpl implements VendingMachineService {
 
-    private VendingRepoImpl vendingRepo;
+    private VendingRepo vendingRepo;
     private VendingMachine machine;
 
     @Override

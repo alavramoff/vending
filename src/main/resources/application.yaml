@@ -14,3 +14,10 @@ data:
     message4: "Please, don't exceed the limit!"
     details:
       message3Details: "Allowed coins are: 5, 10, 20, 50 st or from 1 or 2 lv."
+---
+logging:
+  level:
+    - org.springframework.web: INFO
+    - bg.ava.vendingexample.controllers: INFO
+  file:
+    name: logs/spring-boot-logging.log
